@@ -1,7 +1,7 @@
 {
-    "short_name": "Just Animes",
+    "name": "Just Animes",
+    "short_name": "JustAnimes",
     "start_url": "index.html",
-    "name": "Load animes",
     "icons": [
         {
             "src": "/icons/folha-144x144.png",
