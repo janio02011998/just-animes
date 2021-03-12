@@ -19,5 +19,26 @@
         "genero":"Hárem, Isekai e Fantasia.",
         "url":"https://kotebrasil.files.wordpress.com/2017/10/01.jpg",
         "color":"#2a2b2b"
+    },
+    {   
+        "name":"Code Geass",
+        "sinopse":"Lelouch Lamperouge é um jovem estudante que vive em um Império denominado Britannia. De personalidade introvertida, mas muito inteligente, o jovem estudante na verdade guarda um grande segredo, que intimamente deseja esquecer: ele é um dos sucessores ao trono da Britannia.",
+        "genero":"Mecha, Ação e Aventura.",
+        "url":"https://jbchost.com.br/editorajbc/wp-content/uploads/2018/04/CodeGeass-01-capa_p.jpg",
+        "color":"#374d7c"
+    },
+    {   
+        "name":"Soul Eater",
+        "sinopse":"anime/manga conta a história de uma escola fictícia chamada Shibusen, localizada no estado americano de Nevada, criada para eliminar os Ovos de Kishins, que são seres que usam a alma de humanos (em geral devorando-as) para se tornarem mais poderosos, e as bruxas que vivem aterrorizando o mundo.",
+        "genero":"Ação, Humor negro e Fantasia sombria.",
+        "url":"https://upload.wikimedia.org/wikipedia/pt/7/73/Soul_Eater_capa.jpg",
+        "color":"#e0707c"
+    },
+    {   
+        "name":"Neon Genesis Evangelion",
+        "sinopse":"Neon Genesis Evangelion é uma série de ação pós-apocalíptica que gira em torno de uma organização paramilitar chamada NERV, criada para combater seres monstruosos e misteriosos conhecidos como Anjos, utilizando armas de combate biomecânicas humanoides gigantes conhecidas como Unidades Evangelion (ou EVAs).",
+        "genero":"Mecha, Ação e Ficção Ciêntífica.",
+        "url":"https://www.jbchost.com.br/editorajbc/wp-content/uploads/2012/11/capa_neon_genesis_evangelion_26_g.jpg",
+        "color":"#5cb85c"
     }
 ]

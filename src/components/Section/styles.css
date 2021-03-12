@@ -1,0 +1,39 @@
+.container-section {
+    height: auto;
+    max-width: 550px;
+    display: flex;
+}
+
+.container-section .anime-autor {
+    margin: 10px 25px;
+}
+
+.container-section .anime-autor strong {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-section .anime-autor p {
+    margin-top: 2rem;
+    font-size: 1rem;
+    text-align: justify;
+    max-width: 300px;
+    color: #FFFFFF;
+}
+
+.container-section img {
+    width: 50%;
+    max-height: 400px;
+}
+
+@media (max-width:720) {
+    .container-section img {
+        max-width: 100px;
+        max-height: 400px;
+    }
+}

@@ -34,3 +34,15 @@ a {
     color: inherit;
     text-decoration: none;
 }
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 720px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+}

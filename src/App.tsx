@@ -4,6 +4,7 @@ import animes from './animes.json';
 
 import './global.css';
 import { Search } from "./components/Search";
+import { Navbar } from "./components/Navbar";
 
 interface AnimesProps {
   name: string;
@@ -50,18 +51,24 @@ export default class App extends React.Component<IProps, IState> {
     const arrayAnimes = this.state.searchString;
     return (
       <div className="wrapper">
-        <Search onChange={this.onChange.bind(this)} />
 
-        {arrayAnimes.map((animes: AnimesProps, key: number) => {
-          return <Section
-            key={key}
-            title={animes.name}
-            sinopse={animes.sinopse}
-            url={animes.url}
-            genero={animes.genero}
-            color={animes.color}
-          ></Section>
-        })}
+        <div className="header">
+          <Navbar />
+          <Search onChange={this.onChange.bind(this)} />
+        </div>
+        <div className="main">
+
+          {arrayAnimes.map((animes: AnimesProps, key: number) => {
+            return <Section
+              key={key}
+              title={animes.name}
+              sinopse={animes.sinopse}
+              url={animes.url}
+              genero={animes.genero}
+              color={animes.color}
+            ></Section>
+          })}
+        </div>
       </div>
     );
   }

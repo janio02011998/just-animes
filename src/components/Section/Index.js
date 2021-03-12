@@ -1,10 +1,16 @@
-import './index.css';
+import './styles.css';
+import { AiFillHeart, AiOutlineCheck } from 'react-icons/ai'
+
 
 export function Section({ title, sinopse, color, url, genero }) {
     return (
-        <div className="container" style={{ background: color }}>
+        <div className="container-section" style={{ background: color }}>
             <div className="anime-autor">
-                <strong>{title}</strong>
+                <strong>
+                    {title}
+                    <AiFillHeart />
+                    <AiOutlineCheck />
+                </strong>
                 <p>{sinopse}</p>
                 <p>{genero}</p>
             </div>

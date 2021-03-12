@@ -1,6 +1,5 @@
 import React from 'react';
-import './index.css';
-
+import './styles.css';
 
 interface NavbarProps {
     onChange: (fieldName: string) => void;

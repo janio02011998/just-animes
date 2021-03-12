@@ -77,6 +77,7 @@
 
 const CACHE_NAME = "version-01";
 const urlsToCache = ['index.html', 'offline.html'];
+var ASSETS = ['/icons/youareoffline.html'];
 
 const self = this;
 
@@ -90,6 +91,12 @@ self.addEventListener('install', (event) => {
             })
     )
 });
+
+self.oninstall = function (evt) {
+  evt.waitUntil(caches.open('offline-cache-name').then(function (cache) {
+    return cache.addAll(ASSETS);
+  }))
+};
 
 self.addEventListener('fetch', (event) => {
   event.respondWith(

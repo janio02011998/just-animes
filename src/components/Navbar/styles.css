@@ -1,0 +1,31 @@
+.container-search {
+    width: 100%;
+}
+
+.container-search a {
+
+    width: auto;
+    height: 4rem;
+
+    border-radius: 2px;
+
+    color: #FFF;
+    background: rgba(0, 0, 0, 0.05);
+    padding: 0 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.2s;
+}
+
+.container-search .icons-navbar {
+    margin-left: 5px;
+}
+
+.container-search a:hover {
+    background: black;
+}
+@media  (max-width: 720px) {
+}
